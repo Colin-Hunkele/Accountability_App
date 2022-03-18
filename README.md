@@ -1,6 +1,6 @@
 # Accountability App
 
-## Descirption
+## Description
 
 This project was created as my final project for COSC-355 Mobile Computing. Accountability can be a big problem for student-athletes.
 Many athletes will blow off a day of practice or miss a lift and not make up that missed day. As a student-athlete, I understand this urge to not come to practice very well. 
