@@ -10,3 +10,22 @@ This will send a notification to their coach that contains a message that says t
 For example, if a coach were to give a pool workout to an injured athlete and their athlete blew it off, their coach would know that they marked the workout as complete, without actually making the effort to go to the pool and could punish them accordingly. 
 The same applies to a lifting session, the coach could check to see if their athlete was at a gym when they marked their task as complete. 
 For runners, I am considering Strava integration, which would allow coaches to see the distance and times of their runners.
+
+
+###Personas
+Kyle is a runner that recently got injured and his coach has assigned him workouts through the accountability app. These workouts include several swim workouts and a few recovery lifts.
+Kyle wants to show his coach that he is committed to getting better and that he wants to be the best he can be. SO using the app he tracks all of the workouts that he does and he is able to recover quickly.
+
+Ian is a recently injured football player. His coach assigns him recovery wokrouts, however, Ian blows these off as he feels he should recover by taking time off.
+His coach begins to take notice that Ian has not recovered and assigns him the workouts through the app to see if he actually does them. Now that his coach
+is monitoring him, Ian now attends all of his recovery sessions
+
+Charles is a soccer player who does not show up to practice or to team lift due to having classes. He says that he is doing theses practices and lifts on his own but his coach notices that he is very out of shape.
+After assigning Charles workouts through the app, due to the app tracking his location, his coach noticed that he would mark practices as "complete" from his room, and would not even attempt to complete lifts.
+Thanks to the app, Charles is punished accordingly.
+
+####Interface
+I imagine this app being somewhat similar to the default reminder app that is provided to IPhone users. ![Entering in Activities](https://support.apple.com/library/content/dam/edam/applecare/images/en_US/iOS/ios15-iphone-12-pro-reminders-new-reminder.jpg)
+Coaches could enter in activities and send them out to their athletes.
+Athletes would then receive a notification and would have a list of workouts that they need to complete
+![List of activities](https://support.apple.com/library/content/dam/edam/applecare/images/en_US/iOS/ios15-iphone-12-pro-reminders-remind-while-messaging.jpg)
