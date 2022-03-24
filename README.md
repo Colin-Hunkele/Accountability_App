@@ -26,6 +26,7 @@ Thanks to the app, Charles is punished accordingly.
 
 #### Interface
 I'm going to attempt to make this app be somewhat similar to the default reminder app that is provided to IPhone users. 
+
 ![Entering in Activities](https://support.apple.com/library/content/dam/edam/applecare/images/en_US/iOS/ios15-iphone-12-pro-reminders-new-reminder.jpg)
 
 
