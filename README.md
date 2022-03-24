@@ -25,10 +25,15 @@ After assigning Charles workouts through the app, due to the app tracking his lo
 Thanks to the app, Charles is punished accordingly.
 
 #### Interface
-I imagine this app being somewhat similar to the default reminder app that is provided to IPhone users. 
+I'm going to attempt to make this app be somewhat similar to the default reminder app that is provided to IPhone users. 
 ![Entering in Activities](https://support.apple.com/library/content/dam/edam/applecare/images/en_US/iOS/ios15-iphone-12-pro-reminders-new-reminder.jpg)
 
 
 Coaches could enter in activities and send them out to their athletes.
 Athletes would then receive a notification and would have a list of workouts that they need to complete
 ![List of activities](https://support.apple.com/library/content/dam/edam/applecare/images/en_US/iOS/ios15-iphone-12-pro-reminders-remind-while-messaging.jpg)
+
+##### Metrics
+When an athlete completes an activity, a coach could look and mark the activity as "valid", meaning that the activity was done at the proper location.
+The app could track the number of "valid" activities that an athlete completes. Coaches could see this number, and even reward athletes based on their number of "valid" activities.
+The app could also track the number of activities an athlete missed or did not complete properly. Coaches could see this number as well.
