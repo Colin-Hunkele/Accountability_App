@@ -12,7 +12,7 @@ The same applies to a lifting session, the coach could check to see if their ath
 For runners, I am considering Strava integration, which would allow coaches to see the distance and times of their runners.
 
 
-###Personas
+### Personas
 Kyle is a runner that recently got injured and his coach has assigned him workouts through the accountability app. These workouts include several swim workouts and a few recovery lifts.
 Kyle wants to show his coach that he is committed to getting better and that he wants to be the best he can be. SO using the app he tracks all of the workouts that he does and he is able to recover quickly.
 
@@ -24,8 +24,11 @@ Charles is a soccer player who does not show up to practice or to team lift due 
 After assigning Charles workouts through the app, due to the app tracking his location, his coach noticed that he would mark practices as "complete" from his room, and would not even attempt to complete lifts.
 Thanks to the app, Charles is punished accordingly.
 
-####Interface
-I imagine this app being somewhat similar to the default reminder app that is provided to IPhone users. ![Entering in Activities](https://support.apple.com/library/content/dam/edam/applecare/images/en_US/iOS/ios15-iphone-12-pro-reminders-new-reminder.jpg)
+#### Interface
+I imagine this app being somewhat similar to the default reminder app that is provided to IPhone users. 
+![Entering in Activities](https://support.apple.com/library/content/dam/edam/applecare/images/en_US/iOS/ios15-iphone-12-pro-reminders-new-reminder.jpg)
+
+
 Coaches could enter in activities and send them out to their athletes.
 Athletes would then receive a notification and would have a list of workouts that they need to complete
 ![List of activities](https://support.apple.com/library/content/dam/edam/applecare/images/en_US/iOS/ios15-iphone-12-pro-reminders-remind-while-messaging.jpg)
