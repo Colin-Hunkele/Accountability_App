@@ -1,6 +1,7 @@
 plugins {
     id 'com.android.application'
     id 'kotlin-android'
+    id 'kotlin-android-extensions'
 }
 
 android {
@@ -32,10 +33,7 @@ android {
 }
 
 dependencies {
-    complie fileTree(dir: 'libs', include: ['*.jar'])
-            androidTestCompile('com.android.support.test.espress0:espresso-core:2.2.2' , {
-                exclude group: 'com.android.support', module: 'support-annotations'
-            })
+
     implementation 'androidx.core:core-ktx:1.7.0'
     implementation 'androidx.appcompat:appcompat:1.4.1'
     implementation 'com.google.android.material:material:1.5.0'
