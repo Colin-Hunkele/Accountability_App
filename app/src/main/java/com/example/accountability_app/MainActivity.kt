@@ -4,7 +4,6 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import androidx.recyclerview.widget.LinearLayoutManager
 import kotlinx.android.synthetic.main.activity_main.*
-import kotlinx.android.synthetic.main.item_activity.*
 
 class MainActivity : AppCompatActivity() {
 
@@ -13,16 +12,20 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
         AcAdapter = Adapter(mutableListOf())
 
-        viewItems.adapter = AcAdapter
-        viewItems.layoutManager = LinearLayoutManager(this)
+        itemView.adapter = AcAdapter
+        itemView.layoutManager = LinearLayoutManager(this)
 
-        Activity_Button.setOnClickListener{
+        fab.setOnClickListener{
             val ActivityTitle = itemTitle.text.toString()
+            val Date = etdate.text.toString()
+            val Time = etTime.text.toString()
             if(ActivityTitle.isNotEmpty()){
-                val activity = Activity(ActivityTitle)
+                val activity = Activity(ActivityTitle, Date, Time)
                 AcAdapter.addActivity(activity)
                 itemTitle.text.clear()
-            }//if Title is not empty
+                etdate.text.clear()
+                etTime.text.clear()
+            }//if Title, date, and time all have values
         }//what happens when the button is clicked
         Delete_Button.setOnClickListener{
             AcAdapter.deleteActivities()

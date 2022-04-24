@@ -41,6 +41,8 @@ class Adapter
         holder.itemView.apply {
             ActivityTitle.text = currActivity.title
             CheckboxDone.isChecked = currActivity.Checked
+            Date.text = currActivity.date
+            Time.text = currActivity.time
             togStrikeThrough(ActivityTitle, currActivity.Checked)
             CheckboxDone.setOnCheckedChangeListener { _, isChecked ->
                 togStrikeThrough(ActivityTitle, isChecked)
