@@ -10,45 +10,65 @@
             android:id="@+id/itemView"
             android:layout_width="match_parent"
             android:layout_height="0dp"
-            app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/Toolbar"
             tools:layour_editor_absoluteY="1dp"
-            app:layout_constraintBottom_toTopOf="@+id/itemTitle" />
+            app:layout_constraintBottom_toTopOf="@+id/fab"
+            app:layout_constraintTop_toBottomOf="@+id/Delete_btn" />
 
     <EditText
             android:id="@+id/itemTitle"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:hint="Enter Title"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintStart_toStartOf="parent" />
-
-
-    <EditText
-            android:id="@+id/etdate"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:hint="Enter Date"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintStart_toEndOf="@+id/itemTitle" />
-
-    <EditText
-            android:id="@+id/etTime"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:hint="Enter Time"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintStart_toEndOf="@+id/etdate" />
-
-    <androidx.appcompat.widget.Toolbar
-            android:id="@+id/Toolbar"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
+            android:hint="@string/enter_title"
             app:layout_constraintTop_toTopOf="parent"
-            app:title="Activities" />
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintBottom_toTopOf="@+id/itemView"
+            app:layout_constraintStart_toEndOf="@+id/Delete_btn"
+            android:layout_marginStart="8dp"
+            android:minHeight="48dp"
+            android:inputType="text" />
+
+    <TextView
+            android:id="@+id/tvDate"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:visibility="invisible"
+            android:hint="@string/placeholder_for_date"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/itemTitle"
+            android:layout_marginStart="112dp"
+            android:layout_marginBottom="196dp" />
+
+
+    <Button
+            android:id="@+id/Date_btn"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:hint="@string/select_date"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            android:layout_marginStart="8dp" />
+
+    <TextView
+            android:id="@+id/tvTime"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:visibility="invisible"
+            android:hint="@string/placeholder_for_time"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/itemTitle"
+            android:layout_marginStart="112dp"
+            android:layout_marginBottom="196dp" />
+
+    <Button
+            android:id="@+id/Time_btn"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:hint="@string/select_time"
+            android:textColor="@color/white"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/fab"
+            android:layout_marginEnd="8dp" />
 
     <com.google.android.material.floatingactionbutton.FloatingActionButton
             android:id="@+id/fab"
@@ -56,20 +76,21 @@
             android:layout_height="wrap_content"
             android:layout_margin="16dp"
             app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
             app:srcCompat="@drawable/ic_baseline_add_24"
-            android:contentDescription= "Add an Activity"
-            app:fabSize="normal" />
+            android:contentDescription="@string/add_an_activity"
+            app:fabSize="normal"
+            android:layout_marginBottom="16dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginEnd="4dp"
+            tools:ignore="ImageContrastCheck" />
 
     <Button
-            android:id="@+id/Delete_Button"
-            android:layout_width="wrap_content"
+            android:id="@+id/Delete_btn"
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:text="Delete Done"
-            app:layout_constraintBottom_toTopOf="@+id/itemView"
-            app:layout_constraintEnd_toEndOf="parent"
+            android:text="@string/delete"
             app:layout_constraintTop_toTopOf="parent"
-            android:layout_marginRight="5dp"/>
+            app:layout_constraintStart_toStartOf="parent" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
